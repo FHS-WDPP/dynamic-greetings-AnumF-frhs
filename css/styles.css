@@ -7,9 +7,97 @@
            --------------------------------- */
         /* General Morning Styles */
 
+        /* .circle {
+         height: 275px;
+         width: 275px;
+         background-color: #f6fca3;
+         border-radius: 50%;
+         transform: translateY(-80%);
+         bottom: 0;
+         
+        
+         }
+
+         div {
+            background-color: rgb(193, 230, 245);
+         }
+
+         .full-screen-container {
+            height: 100vh;
+            width: 100w;
+            display: flex;
+            justify-content: flex-end;
+
+         }
+
+         h1 {
+            font-size: 8vw;
+            position: absolute;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-shadow: 2px 2px #b3afaf;
+         }
+
+      
+         
+
+         .morning {
+            transform: translateX(-20%);
+            bottom: 0;
+            
+         } */
+
+         
+
+         
+         
+         
+
 
 
         /* Custom Morning Animation: Rises slightly and fades in */
+        /* the animations for morning is on a separate doc bc of issues*/
+
+        
+       /*   
+       .pulsating-text {
+       animation: pulse-scale 2s infinite alternate; /* Applies the animation */
+      /*}
+
+
+        @keyframes pulse-scale {
+        0% {
+        transform: scale(1); /* Initial size */
+      /* }
+        50% {
+        transform: scale(1.1); /* Slightly larger */
+      /*}
+        100% {
+        transform: scale(1); /* Returns to initial size */
+      /*}
+        }
+
+        .circle {
+        opacity: 0; /* Start completely transparent */
+      /*transform: translateY(20px); /* Start slightly below its final position */
+     /* animation: riseAndFade 2s ease-out forwards; /* Apply the animation */
+      /*}
+
+
+       @keyframes riseAndFade {
+       0% {
+       opacity: 0;
+       transform: translateY(20px);
+       }
+       100% {
+       opacity: 1;
+       transform: translateY(0); /* Move to its final position */
+     /*}
+       }
+
+
+        
+
+
 
 
 
@@ -18,11 +106,67 @@
         /* ---------------------------------
            2. Afternoon Theme (12:00 - 17:59)
            --------------------------------- */
+          
+           
         /* General Afternoon Styles */
+
+       /*  .circle {
+         height: 275px;
+         width: 275px;
+         background-color: #f6fca3;
+         border-radius: 50%;
+         transform: translateY(80%);
+         bottom: 0;
+         
+        
+         }
+
+         div {
+            background-color: rgb(193, 230, 245);
+         }
+
+         .full-screen-container {
+            height: 100vh;
+            width: 100w;
+            display: flex;
+            justify-content: center;
+
+         }
+
+         h1 {
+            font-size: 8vw;
+            position: absolute;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-shadow: 2px 2px #b3afaf;
+            -webkit-text-fill-color: rgb(0, 0, 0);
+         } */
+        
 
 
 
         /* Custom Afternoon Animation: Bouncy scaling for energy */
+        /*afternoon animation is also in the doc*/
+        
+       /*   
+       .pulsating-text {
+       animation: pulse-scale 2s infinite alternate; /* Applies the animation */
+      /*}
+
+
+        @keyframes pulse-scale {
+        0% {
+        transform: scale(1); /* Initial size */
+      /* }
+        50% {
+        transform: scale(1.1); /* Slightly larger */
+      /*}
+        100% {
+        transform: scale(1); /* Returns to initial size */
+      /*}
+        }
+
+
+
 
 
 
@@ -34,9 +178,83 @@
            --------------------------------- */
         /* General Night Styles */
 
+        /*
+
+        .circle {
+         height: 275px;
+         width: 275px;
+         background-color: #e7ebb7;
+         border-radius: 50%;
+         margin-top: 50px;
+         transform: translateX(200%);
+         bottom: 0;
+         
+        
+         }
+
+         div {
+            background-color: rgb(26, 25, 78);
+         }
+
+         .full-screen-container {
+            height: 100vh;
+            width: 100w;
+            display: flex;
+            justify-content: bottom;
+
+         }
+
+         h1 {
+            font-size: 8vw;
+            position: absolute;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-shadow: 2px 2px #797676;
+            -webkit-text-fill-color: rgb(250, 250, 250);
+            transform: translateY(200%);
+
+         } 
+
 
 
         /* Custom Night Animation */
+
+        
+     /*.circle {
+        opacity: 0; /* Start completely transparent */
+     /* animation: riseAndFade 2s ease-out forwards; /* Apply the animation */
+     /* } 
+
+        /*
+
+
+       @keyframes riseAndFade {
+       0% {
+       opacity: 0;
+       }
+       100% {
+       opacity: 1;
+       }
+       }
+
+       /*   
+       .pulsating-text {
+       animation: pulse-scale 2s infinite alternate; /* Applies the animation */
+      /*}
+
+
+        @keyframes pulse-scale {
+        0% {
+        transform: scale(1); /* Initial size */
+      /* }
+        50% {
+        transform: scale(1.1); /* Slightly larger */
+      /*}
+        100% {
+        transform: scale(1); /* Returns to initial size */
+      /*}
+        }
+
+
 
 
 
