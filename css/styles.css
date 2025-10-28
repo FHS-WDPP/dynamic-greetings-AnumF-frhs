@@ -170,6 +170,8 @@
          transform: translateX(200%);
          bottom: 0;
          box-shadow: 0 0 10px 5px rgb(231,230, 183 );
+         opacity: 0; /* Start completely transparent */
+        animation: riseAndFade 2s ease-out forwards; /* Apply the animation */
          }
           
          
@@ -186,10 +188,9 @@
         /* Custom Night Animation */
 
         
-     .moon {
-        opacity: 0; /* Start completely transparent */
-        animation: riseAndFade 2s ease-out forwards; /* Apply the animation */
-      } 
+     
+       
+      
 
         
 

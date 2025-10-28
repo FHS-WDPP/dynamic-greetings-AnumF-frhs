@@ -4,7 +4,7 @@
         const now = new Date();
         let hour = now.getHours();
         console.log(now.getHours());
-        hour = 14;
+        hour = 12;
     
         //0-12 pm
         function updateGreeting() {
@@ -15,8 +15,7 @@
             
             // Get a reference to the body tag for background color changes
 
-            function myFunction() {
-            }
+            
 
 
             // 1. Hide all elements first (ensures only one is shown)
@@ -28,10 +27,11 @@
 
 
             // Morning: 5 AM (inclusive) to 12 PM (exclusive) -> Hours 5 to 11
-             if ( hour >=5 && hour < 12) {
+             if ( hour< 12) {
                 greetingText.textContent = "Good Morning!";
                 document.querySelector(".afternoon").classList.add("d-none");
                 document.querySelector(".night").classList.add("d-none");
+                greetingText.parentElement.classList.add("night-gradient");
               }
 
 
@@ -41,19 +41,22 @@
 
             // Afternoon: 12 PM (inclusive) to 6 PM (exclusive) -> Hours 12 to 17
 
-                  else if ( hour >= 12 && hour < 17) {
+                  else if ( hour < 17) {
                 greetingText.textContent = "Good Afternoon!";
                 document.querySelector(".morning").classList.add("d-none");
                 document.querySelector(".night").classList.add("d-none");
+                document.getElementsByTagName("boafternoon")[0].classList.add("noon");
+                greetingText.parentElement.classList.add("noon");
+
               }
 
                 // Show Afternoon
 
 
             // Night: 6 PM (inclusive) to 4 AM (inclusive) -> Hours 18 to 4
-                  else if (hour >= 18 && hour <= 4) {
+                else {
                 greetingText.textContent = "Goodnight!";
-                 document.querySelector(".afternoon").classList.add("d-none");
+                document.querySelector(".afternoon").classList.add("d-none");
                 document.querySelector(".morning").classList.add("d-none");
               }
 
@@ -63,11 +66,6 @@
         }
 
         // Run the function once when the script loads
-                window.onload = function() {
-                // Your function call here
-               updateGreeting();
-                };
-
         // Optional: Run the function every 30 seconds (or more frequently) to update automatically
         // Note: Students should understand this is for real-time changes
         // setInterval(updateGreeting, 30000); 
